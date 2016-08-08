@@ -1,0 +1,21 @@
+[root]
+name = "reduce"
+version = "0.1.0"
+dependencies = [
+ "grabinput 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "iter-ord 0.1.0 (git+https://github.com/archer884/iter-ord)",
+]
+
+[[package]]
+name = "grabinput"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "iter-ord"
+version = "0.1.0"
+source = "git+https://github.com/archer884/iter-ord#2e48d1aadd070918bd9dacaf32e68fefd610a581"
+
+[metadata]
+"checksum grabinput 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c546f5ae5cf1152f9a931bf59c8999812be7b4903f087b6a3a8e055484659d24"
+"checksum iter-ord 0.1.0 (git+https://github.com/archer884/iter-ord)" = "<none>"

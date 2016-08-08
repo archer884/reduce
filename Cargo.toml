@@ -1,0 +1,8 @@
+[package]
+name = "reduce"
+version = "0.1.0"
+authors = ["J/A <archer884@gmail.com>"]
+
+[dependencies]
+iter-ord = { git = 'https://github.com/archer884/iter-ord' }
+grabinput = "*"
